@@ -3,7 +3,7 @@ on: push
 
 jobs:
   node-version:
-    staps:
+    steps:
       - name: Log node version
         run: node -v
       - name: Setup node action 
